@@ -302,11 +302,11 @@ public class CreateBinaryTree {
 	}
 	
 	public static void main(String[] args) {
-		for(int i = 0;i<1;i++) {
-			CreateBinaryTree binaryTree = new CreateBinaryTree(4,11);
-			System.out.println(binaryTree.toString());
+		for(int i = 0;i<100;i++) {
+			CreateBinaryTree binaryTree = new CreateBinaryTree(4);
+			//System.out.println(binaryTree.toString());
 			binaryTree.print();
-			System.out.println("-------------------------------------------------------------------------------");
+			System.out.println(i+"-------------------------------------------------------------------------------");
 		}
 	}
 
